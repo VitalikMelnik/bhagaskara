@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Bhagaskara</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="style/hex_hover.css" rel="stylesheet" type="text/css">
+    <link href="style/scroll.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+</head>
+<body ng-controller="rootController">
+
+
+
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-4 col-xs-offset-3">
+                        <div class="hex-bag">
+                        <img src="imeges/hex_properties/servises.png" class="img">
+                    </div>
+                    <div class="hex-bag">
+                        <img src="imeges/hex_properties/portfolip.png" class="img">
+                    </div>
+                </div>
+                    <div class="col-md-offset-6 col-md-6">
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-xs-2 col-xs-offset-3 col-md-1 col-md-offset-1 col-lg-1 " >
+                        <div class="hex-bag ">
+                            <img src="imeges/hex_properties/about.png" class="img">
+                        </div>
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1 col-md-1 col-lg-1 ">
+                    <div class="hex-bag ">
+                        <img src="imeges/hex_properties/team.png" class="img">
+                    </div>
+                   </div>
+                    <div class="col-xs-2 col-xs-offset-3 col-md-1 col-lg-1" >
+                        <div class="hex-bag ">
+                            <img src="imeges/hex_properties/blog.png" class="img">
+                        </div>
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1 col-md-1 col-lg-1">
+                        <div class="hex-bag ">
+                            <img src="imeges/hex_properties/contact.png" class="img">
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                
+                <div class="row ">
+                    <div class="text-center">
+                        <img src="imeges/scroll/scroller.png" class="scroll-img">
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+    <div class="menu">
+
+        <div class="container">
+            <ul class="nav navbar-nav">
+
+                <li du-scrollspy="header"><a href="#header" du-smooth-scroll>Home</a></li>
+                <li du-scrollspy="img_2"><a href="#img_2" du-smooth-scroll>Geography</a></li>
+                <li du-scrollspy="img_3"><a href="#img_3" du-smooth-scroll>Famous speakers</a></li>
+                <li du-scrollspy="img_4"><a href="#img_4" du-smooth-scroll>English sayings</a></li>
+                <li du-scrollspy="img_5"><a href="#img_5" du-smooth-scroll>Food and drink</a></li>
+                <li du-scrollspy="img_6"><a href="#img_6" du-smooth-scroll>Heritage</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+<div class="container-fluid"></div>
+
+
+<script src="js/root.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/menu.js"></script>
+</body>
+
+</html>
