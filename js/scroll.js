@@ -10,6 +10,9 @@ angular.module('app', ['duScroll'])
     .value('duScrollGreedy', true)
     .value('duScrollBottomSpy', true)
     .controller('rootController', function ($scope, $document) {
+            
+            
+        
             $scope.toTheTop = function () {
                 $document.scrollTopAnimated(0, 5000).then(function () {
                     //console && console.log('scrolled');

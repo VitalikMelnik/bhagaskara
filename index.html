@@ -3,94 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <title>Bhagaskara</title>
-    <link href="style/style.css" rel="stylesheet" type="text/css">
-    <link href="style/hex_hover.css" rel="stylesheet" type="text/css">
-    <link href="style/scroll.css" rel="stylesheet" type="text/css">
+    <link href="style/header&&menu.css" rel="stylesheet" type="text/css">
+
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body ng-controller="rootController">
 
-
-
-<div class="site-wrapper">
-    <div class="site-wrapper-inner">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-4 col-xs-offset-3">
-                        <div class="hex-bag">
-                        <img src="imeges/hex_properties/servises.png" class="img">
-                    </div>
-                    <div class="hex-bag">
-                        <img src="imeges/hex_properties/portfolip.png" class="img">
-                    </div>
+<header class="banner">
+    <span class="background"></span>
+        <div class="container">
+            <div class="text-center">
+                <p>Bhagas<span>kara</span>.</p>
+                <h2 class="head-in-header">Forse return prentium loren semper nulla.</h2>
+                <p class="description">Vestibulum ornare cursus nisl,fermentum tincidunt libero pretium et.Maecenas interdum ligula non <br>
+                fermentum fringilla.
+                </p>
+            </div>
+        <div class="row">
+            <div class=" col-md-12 col-md-offset-4 col-xs-12 col-xs-offset-3 ">
+                <div class="hex-bag">
+                    <img src="imeges/hex_properties/servises.png" class="img">
+                    <span class="text-in-hex">Services</span>
                 </div>
-                    <div class="col-md-offset-6 col-md-6">
-                    </div>
-                </div>
-
-                <div class="row ">
-                    <div class="col-xs-2 col-xs-offset-3 col-md-1 col-md-offset-1 col-lg-1 " >
-                        <div class="hex-bag ">
-                            <img src="imeges/hex_properties/about.png" class="img">
-                        </div>
-                    </div>
-                    <div class="col-xs-2 col-xs-offset-1 col-md-1 col-lg-1 ">
-                    <div class="hex-bag ">
-                        <img src="imeges/hex_properties/team.png" class="img">
-                    </div>
-                   </div>
-                    <div class="col-xs-2 col-xs-offset-3 col-md-1 col-lg-1" >
-                        <div class="hex-bag ">
-                            <img src="imeges/hex_properties/blog.png" class="img">
-                        </div>
-                    </div>
-                    <div class="col-xs-2 col-xs-offset-1 col-md-1 col-lg-1">
-                        <div class="hex-bag ">
-                            <img src="imeges/hex_properties/contact.png" class="img">
-                        </div>
-                    </div>
-
-
-
-
-
-
-                </div>
-                
-                <div class="row ">
-                    <div class="text-center">
-                        <img src="imeges/scroll/scroller.png" class="scroll-img">
-                    </div>
+                <div class="hex-bag">
+                    <img src="imeges/hex_properties/portfolip.png" class="img">
+                    <span class="text-in-hex">Portfolio</span>
                 </div>
             </div>
-        
-    </div>
-</div>
-    <div class="menu">
 
-        <div class="container">
-            <ul class="nav navbar-nav">
+        </div>
 
-                <li du-scrollspy="header"><a href="#header" du-smooth-scroll>Home</a></li>
-                <li du-scrollspy="img_2"><a href="#img_2" du-smooth-scroll>Geography</a></li>
-                <li du-scrollspy="img_3"><a href="#img_3" du-smooth-scroll>Famous speakers</a></li>
-                <li du-scrollspy="img_4"><a href="#img_4" du-smooth-scroll>English sayings</a></li>
-                <li du-scrollspy="img_5"><a href="#img_5" du-smooth-scroll>Food and drink</a></li>
-                <li du-scrollspy="img_6"><a href="#img_6" du-smooth-scroll>Heritage</a></li>
+        <div class="row ">
+            <div class="col-xs-3 col-md-2 col-md-offset-1 col-lg-2 " >
+                <div class="hex-bag ">
+                    <img src="imeges/hex_properties/about.png" class="img">
+                    <span class="text-in-hex">About</span>
+                </div>
+            </div>
+            <div class="col-xs-3 col-md-2 col-lg-2 ">
+                <div class="hex-bag ">
+                    <img src="imeges/hex_properties/team.png" class="img">
+                    <span class="text-in-hex">Team</span>
+                </div>
+            </div>
+            <div class="col-xs-3  col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-2" >
+                <div class="hex-bag ">
+                    <img src="imeges/hex_properties/blog.png" class="img">
+                    <span class="text-in-hex">Blog</span>
+                </div>
+            </div>
+            <div class="col-xs-3 col-md-2 col-lg-2">
+                <div class="hex-bag ">
+                    <img src="imeges/hex_properties/contact.png" class="img">
+                    <span class="text-in-hex">Contact</span>
+                </div>
+            </div>
 
-            </ul>
+
+
+
+
+
+        </div>
+
+        <div class="row ">
+            <li du-scrollspy="content" class="text-center">
+                <a href="#content" du-smooth-scroll><img  src="imeges/scroll/scroller.png" class="scroll-img" ></a>
+
+            </li>
         </div>
     </div>
+</header>
 
+<nav id="navigation" class="navbar navbar-inverse" data-spy="affix" data-offset-top="700">
+    <div class="container">
+        <p class="nav-icon">Bhagas<span>kara</span>.</p>
+          <ul class="naigation">
 
+                <li du-scrollspy="header" ><a href="#content" du-smooth-scroll>Home</a></li>
+                <li du-scrollspy="img_2"><a href="#img_2" du-smooth-scroll>Geography</a></li>
+                <li du-scrollspy="img_3" ><a href="#img_3" du-smooth-scroll>Famous speakers</a></li>
+                <li du-scrollspy="img_4" ><a href="#img_4" du-smooth-scroll>English sayings</a></li>
+                <li du-scrollspy="img_5" ><a href="#img_5" du-smooth-scroll>Food and drink</a></li>
+                <li du-scrollspy="img_6" ><a href="#img_6" du-smooth-scroll>Heritage</a></li>
 
-<div class="container-fluid"></div>
+            </ul>
+    </div>
+</nav>
 
+<div id="content" ></div>
 
+<script>
+    window.onload = function() {
+    document.body.className += ' loaded'
+};</script>
 <script src="js/root.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/menu.js"></script>
