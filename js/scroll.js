@@ -3,19 +3,16 @@
  */
 
 
-angular.module('app', []);
 
 angular.module('app', ['duScroll'])
     .value('duScrollGreedy', true)
     .value('duScrollBottomSpy', true)
     .controller('rootController', function ($scope, $document) {
-        
         $scope.submitForm = function(){
             if($scope.form.$valid){
                 console.log("Form Submitted!");
             }
         }
-
         $scope.orderByMe = function(x) {
             if(x=='all'){
                 $scope.myOrderBy=undefined;
@@ -45,8 +42,8 @@ angular.module('app', ['duScroll'])
             },
 
         ];
-            
-        
+
+
             $scope.toTheTop = function () {
                 $document.scrollTopAnimated(0, 5000).then(function () {
                     //console && console.log('scrolled');
