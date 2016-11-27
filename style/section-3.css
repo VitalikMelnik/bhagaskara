@@ -1,0 +1,75 @@
+#section-3{
+
+    width: 100%;
+    min-height: 624px;
+    left: 0;
+    top: 40px;
+    background: #eeeeee url(../imeges/photo/fon.png) no-repeat center center;
+    background-size: cover;
+}
+.in-sec-3{
+    margin-top: 30%;
+}
+.header-in-section-3{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.navigation{
+    margin-top: 100px;
+
+}
+.header-in-section-4{
+    font-size: 30px;
+    color: #000000;
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.header-in-section-4{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.header-in-section-4:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+.header-in-section-5{
+    font-size: 30px;
+    color: #000000;
+    margin-left: -30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.header-in-section-5{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.header-in-section-5:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+#section-6{
+    background: #eeeeee url(../imeges/photo/fon.png) no-repeat center center;
+    width: 100%;
+    min-height: 624px;
+    background-size: cover;
+}
+#section-8{
+    margin-top: -200px;
+    width: 80%;
+    background-color: #ffffff;
+    height: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

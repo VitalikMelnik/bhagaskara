@@ -1,0 +1,88 @@
+.carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+}
+.owl-carousel .item {
+    position: relative; /* fix blank or flashing items on carousel */
+    z-index: 100; /* fix blank or flashing items on carousel */
+    -webkit-backface-visibility: hidden; /* fix blank or flashing items on carousel */
+}
+.owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+}
+.owl-nav i {
+    font-size: 52px;
+}
+.owl-nav .owl-prev {
+    left: -30px;
+}
+.owl-nav .owl-next {
+    right: -30px;
+}
+.item-in-carusel{
+    width:300px;
+    height:300px;
+    display:block;
+    border-radius:150px;
+    -moz-border-radius:150px;
+    -webkit-border-radius:150px;
+    -khtml-border-radius:150px;
+    font-size:20px; color:#fff;
+    line-height:100px;
+    text-align:center;
+    background:#eeeeee;
+    -webkit-transition: all 1.3s ease-in-out;
+    -moz-transition:    all 1.3s ease-in-out;
+    -o-transition:      all 1.3s ease-in-out;
+    -ms-transition:     all 1.3s ease-in-out;
+}
+.item-in-carusel:hover{
+    position: inherit;
+    width:300px;
+    height:300px;
+    display:block;
+    border-radius:150px;
+    -moz-border-radius:150px;
+    -webkit-border-radius:150px;
+    -khtml-border-radius:150px;
+    font-size:20px; color:#fff;
+    line-height:100px;
+    text-align:center;
+    background-color: rgba(255,204,51,0.7);
+    -webkit-transform: rotate(360deg) scale(0.9);
+    -moz-transform:    rotate(360deg) scale(0.9);
+    -o-transform:      rotate(360deg) scale(0.9);
+    -ms-transform:     rotate(360deg) scale(0.9);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     );
+
+}
+
+
+
+.img-under-person{
+    height: 50px;
+    max-width: 50px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.information-center{
+   margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

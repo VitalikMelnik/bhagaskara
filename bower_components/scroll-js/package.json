@@ -1,0 +1,55 @@
+{
+  "name": "scroll-js",
+  "version": "1.4.1",
+  "description": "Light Scroller class that uses native javascript only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkay581/scroll-js.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": {
+    "name": "Mark Kennedy",
+    "url": "http://heyimmark.com"
+  },
+  "keywords": [
+    "scroller",
+    "scroll",
+    "scroll class",
+    "scrolljs",
+    "scroll js",
+    "scrollTo",
+    "scroll events"
+  ],
+  "license": "MIT",
+  "main": "./src/scroll.js",
+  "scripts": {
+    "test": "bt test",
+    "start": "bt server"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "browserify": "^13.0.1",
+    "es6-promise": "^4.0.5"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "build-tools": "^6.0.5",
+    "sinon": "^1.17.3"
+  }
+}

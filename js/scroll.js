@@ -1,16 +1,50 @@
 /**
  * Created by vitalik on 25.11.16.
  */
-/**
- *@module app {duScroll}- function is root in site
- *@controller {$scope, $document}- linking to page
- * This code is responsible for page scrolling
- */
+
+
+angular.module('app', []);
+
 angular.module('app', ['duScroll'])
     .value('duScrollGreedy', true)
     .value('duScrollBottomSpy', true)
     .controller('rootController', function ($scope, $document) {
-            
+        
+        $scope.submitForm = function(){
+            if($scope.form.$valid){
+                console.log("Form Submitted!");
+            }
+        }
+
+        $scope.orderByMe = function(x) {
+            if(x=='all'){
+                $scope.myOrderBy=undefined;
+            }else {
+                $scope.myOrderBy = x;
+            }
+        };
+        $scope.persons = [
+            {
+                url:'imeges/photo/1.png',
+                propertis:'web'
+            },{
+                url:'imeges/photo/1.png',
+                propertis:'web'
+            },{
+                url:'imeges/photo/1.png',
+                propertis:'apps'
+            },{
+                url:'imeges/photo/1.png',
+                propertis:'apps'
+            },{
+                url:'imeges/photo/1.png',
+                propertis:'icons'
+            },{
+                url:'imeges/photo/1.png',
+                propertis:'icons'
+            },
+
+        ];
             
         
             $scope.toTheTop = function () {

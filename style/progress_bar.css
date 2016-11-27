@@ -1,0 +1,19 @@
+.tooltip{
+    position:relative;
+    float:right;
+}
+
+#section-5{
+    margin:140px auto;
+    height: auto;
+}
+.progress{
+    border-radius:0;
+    overflow:visible;
+}
+.progress-bar{
+    background:rgb(23,44,60);
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+}
+

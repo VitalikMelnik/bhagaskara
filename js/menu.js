@@ -1,25 +1,24 @@
 /**
  * Created by vitalik on 25.11.16.
  */
-$(document).ready(function () {
+$(document).ready(function() {
 
-    var menu = $('.menu');
-    var origOffsetY = menu.offset().top;
-
-    function scroll() {
-        if ($(window).scrollTop() >= origOffsetY) {
-            $('.menu').addClass('sticky');
-            
-        } else {
-            $('.menu').removeClass('sticky');
-            
+    $(window).scroll(function () {
+        //if you hard code, then use console
+        //.log to determine when you want the
+        //nav bar to stick.
+        //console.log($(window).scrollTop())
+        if ($(window).scrollTop() > 700) {
+            $('#nav_bar').addClass('navbar-fixed');
         }
-
-
-    }
-
-    document.onscroll = scroll;
-
+        if ($(window).scrollTop() < 700) {
+            $('#nav_bar').removeClass('navbar-fixed');
+        }
+        
+    });
+    
 });
 
-
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
+});

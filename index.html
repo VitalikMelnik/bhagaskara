@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Bhagaskara</title>
+    <link href="style/content.css" rel="stylesheet" type="text/css">
     <link href="style/header&&menu.css" rel="stylesheet" type="text/css">
-
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style/section-3.css" rel="stylesheet" type="text/css">
+    <link href="style/carusel.css" rel="stylesheet" type="text/css">
+    <link href="style/progress_bar.css" rel="stylesheet" type="text/css">
+    <link href="style/after-section-6.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="style/hex-hover&&baground.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/owl.carousel/dist/owl.carousel.js"></script>
 </head>
 <body ng-controller="rootController">
 
@@ -71,31 +78,455 @@
         </div>
 
         <div class="row ">
-            <li du-scrollspy="content" class="text-center">
-                <a href="#content" du-smooth-scroll><img  src="imeges/scroll/scroller.png" class="scroll-img" ></a>
+            <li du-scrollspy="nav_bar" class="text-center">
+                <a href="#nav_bar" du-smooth-scroll><img  src="imeges/scroll/scroller.png" class="scroll-img" ></a>
 
             </li>
         </div>
     </div>
 </header>
 
-<nav id="navigation" class="navbar navbar-inverse" data-spy="affix" data-offset-top="700">
-    <div class="container">
-        <p class="nav-icon">Bhagas<span>kara</span>.</p>
-          <ul class="naigation">
+<nav id='nav_bar'>
+       <ul class="naigation">
 
-                <li du-scrollspy="header" ><a href="#content" du-smooth-scroll>Home</a></li>
-                <li du-scrollspy="img_2"><a href="#img_2" du-smooth-scroll>Geography</a></li>
-                <li du-scrollspy="img_3" ><a href="#img_3" du-smooth-scroll>Famous speakers</a></li>
-                <li du-scrollspy="img_4" ><a href="#img_4" du-smooth-scroll>English sayings</a></li>
-                <li du-scrollspy="img_5" ><a href="#img_5" du-smooth-scroll>Food and drink</a></li>
-                <li du-scrollspy="img_6" ><a href="#img_6" du-smooth-scroll>Heritage</a></li>
+        <li du-scrollspy="header" ><a href="#content" du-smooth-scroll>Home</a></li>
+        <li du-scrollspy="img_2"><a href="#img_2" du-smooth-scroll>Geography</a></li>
+        <li du-scrollspy="img_3" ><a href="#img_3" du-smooth-scroll>Famous speakers</a></li>
+        <li du-scrollspy="img_4" ><a href="#img_4" du-smooth-scroll>English sayings</a></li>
+        <li du-scrollspy="img_5" ><a href="#img_5" du-smooth-scroll>Food and drink</a></li>
+        <li du-scrollspy="img_6" ><a href="#img_6" du-smooth-scroll>Heritage</a></li>
 
-            </ul>
+      </ul>
+    </nav>
+
+<section id="section-1">
+
+<div class="container">
+        <div class="content-in-section1 text-center" >
+     <div class="ded">
+        <div class=" col-md-3  col-xs-12 ">
+            <div  class="hexe-in-first-div-content-1 centered">
+                <img  src="imeges/first_content/hex.png"  >
+            </div>
+            <h2 class="header-in-section-1">Build whit love</h2>
+            <p class="text-in-section-1">Furce facilisis velit libero,nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque  habittant morbi
+            tristique senectus et.</p>
+        </div>
+     </div>
+            <div class="ded">
+            <div class=" col-md-3 col-xs-12">
+            <div  class="hexe-in-first-div-content-2 centered">
+                <img  src="imeges/first_content/hex.png"  >
+
+            </div>
+            <h2 class="header-in-section-1">Clean and modern</h2>
+            <p class="text-in-section-1">Furce facilisis velit libero,nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque  habittant morbi
+                tristique senectus et.</p>
+        </div>
+                </div>
+            <div class="ded">
+        <div class=" col-md-3 col-xs-12 ">
+            <div  class="hexe-in-first-div-content-3 centered">
+                <img  src="imeges/first_content/hex.png"  >
+            </div>
+            <h2 class="header-in-section-1">Easy to use</h2>
+            <p class="text-in-section-1">Furce facilisis velit libero,nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque  habittant morbi
+                tristique senectus et.</p>
+        </div>
+                </div>
+            <div class="ded">
+        <div class=" col-md-3  col-xs-12">
+            <div  class="hexe-in-first-div-content-4 centered">
+                <img  src="imeges/first_content/hex.png"  >
+            </div>
+            <h2 class="header-in-section-1">Fully Responsible</h2>
+            <p class="text-in-section-1">Furce facilisis velit libero,nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque  habittant morbi
+                tristique senectus et.</p>
+        </div>
+</div>
     </div>
-</nav>
+    </div>
+</section>
 
-<div id="content" ></div>
+<section id="section-2">
+
+
+        <div class="container">
+            <div class="header-in-section">
+         <h2 class=" col-md-3 col-md-offset-5 col-xs-offset-4">
+             <img src="imeges/header_couter/left.png" class="left-border">
+             About <span class="span-in-header">us</span>
+             <img src="imeges/header_couter/raigth.png" class="raigth-border"></h2>
+        </div>
+       </div>
+
+    <div class="container content-in-section2">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                 <img src="imeges/photo/laptop.png" alt="laptop">
+            </div>
+            <div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-1 col-xs-12 text-left">
+                <p class="text-in-section-2">Furce facilisis velit libero,nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque  habittant morbi
+                    tristique senectus et.
+                    Furce facilisis velit libero,nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque  habittant morbi
+                    tristique senectus et.
+                    Furce facilisis velit libero,nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque  habittant morbi
+                    tristique senectus et.</p>
+            </div>
+            <div class="col-md-4 col-md-offset-2 col-lg-offset-1  col-xs-1 col-xs-offset-4 ">
+                    <button class="button-on-section-2" ></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-3">
+
+        <div class="col-sm-4 col-sm-offset-4 ">
+            <div class="in-sec-3">
+            <div  class="hexe-in-first-div-content-5 centered">
+                <img  src="imeges/first_content/hex.png"  >
+            </div>
+            <h2 class="header-in-section-3 text-center">We loren and ipsum your aliquam</h2>
+
+        </div>
+    </div>
+</section>
+
+<section id="section-4">
+    <div class="container">
+        <div class="header-in-section-4">
+            <h2 class=" col-md-4 col-md-offset-5 col-xs-offset-4">
+                <img src="imeges/header_couter/left.png" class="left-border">
+                Our <span class="span-in-header">team</span>
+                <img src="imeges/header_couter/raigth.png" class="raigth-border"></h2>
+        </div>
+    </div>
+
+    <div class="container navigation ">
+
+        <div class="col-sm-6 text-right">
+            <img  src="imeges/section-4/raigtrh.png" class="button__prev" >
+        </div>
+        <div class="col-sm-6">
+            <img src="imeges/section-4/lef1t.png" class="button__next">
+        </div>
+
+    </div>
+
+    <div class="carousel-wrap">
+        <div class="owl-carousel">
+
+            <div class="item">
+                <div class="item-in-carusel"></div>
+                <div class="information-center">
+                <h3>Anne Hathaway</h3>
+                <h4>CEO/ Marceting Guru</h4>
+
+                <div >
+
+                   <a href=""><img src="imeges/social/feusb.png" class="img-under-person"></a>
+                   <a href=""><img src="imeges/social/feysbuk.png" class="img-under-person"></a>
+
+                </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-in-carusel">
+                    Example - rotate)
+                </div>
+                <div class="information-center">
+                    <h3>Anne Hathaway</h3>
+                    <h4>CEO/ Marceting Guru</h4>
+
+                    <div >
+
+                        <a href=""><img src="imeges/social/feusb.png" class="img-under-person"></a>
+                        <a href=""><img src="imeges/social/feysbuk.png" class="img-under-person"></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-in-carusel"></div>
+                <div class="information-center">
+                    <h3>Anne Hathaway</h3>
+                    <h4>CEO/ Marceting Guru</h4>
+
+                    <div >
+
+                        <a href=""><img src="imeges/social/feusb.png" class="img-under-person"></a>
+                        <a href=""><img src="imeges/social/feysbuk.png" class="img-under-person"></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-in-carusel"></div>
+                <div class="information-center">
+                    <h3>Anne Hathaway</h3>
+                    <h4>CEO/ Marceting Guru</h4>
+
+                    <div >
+
+                        <a href=""><img src="imeges/social/feusb.png" class="img-under-person"></a>
+                        <a href=""><img src="imeges/social/feysbuk.png" class="img-under-person"></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-in-carusel"></div>
+                <div class="information-center">
+                    <h3>Anne Hathaway</h3>
+                    <h4>CEO/ Marceting Guru</h4>
+
+                    <div >
+
+                        <a href=""><img src="imeges/social/feusb.png" class="img-under-person"></a>
+                        <a href=""><img src="imeges/social/feysbuk.png" class="img-under-person"></a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section id="section-5">
+    <div class="container">
+        <div class="header-in-section-5">
+            <h2 class=" col-md-4 col-md-offset-5 col-xs-offset-4">
+                <img src="imeges/header_couter/left.png" class="left-border">
+                Our <span class="span-in-header">skills</span>
+                <img src="imeges/header_couter/raigth.png" class="raigth-border"></h2>
+        </div>
+    </div>
+
+    <div id="progress-barr" class="container">
+            <div class="col-sm-4 col-sm-offset-2">
+                    <span class="progressText"><B>Web Design</B></span>
+                    <span class="pull-right">90%</span>
+                    <div class="progress ">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" >
+                            <span  class="popOver" data-toggle="tooltip" data-placement="top" > </span>
+                        </div>
+
+                    </div>
+            </div>
+            <div class="col-sm-4">
+                    <span class="progressText"><B>Graphic design</B></span>
+                    <span class="pull-right">70%</span>
+                    <div class="progress ">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" >
+                            <span  class="popOver" data-toggle="tooltip" data-placement="top" > </span>
+                        </div>
+                    </div>
+            </div>
+        <div class="col-sm-4 col-sm-offset-2 ">
+            <span class="progressText"><B>html/css</B></span>
+            <span class="pull-right">75%</span>
+            <div class="progress ">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" >
+                    <span  class="popOver" data-toggle="tooltip" data-placement="top" > </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <span class="progressText"><B>ui / ux</B></span>
+            <span class="pull-right">85%</span>
+            <div class="progress ">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" >
+                    <span  class="popOver" data-toggle="tooltip" data-placement="top" > </span>
+                </div>
+            </div>
+
+        </div>
+        </div>
+</section>
+
+<section id="section-6">
+    <div class="col-sm-4 col-sm-offset-4 ">
+        <div class="in-sec-3">
+            <div  class="hexe-in-first-div-content-5 centered">
+                <img  src="imeges/first_content/hex.png"  >
+            </div>
+            <h2 class="header-in-section-3 text-center">Our services will loren and ipsum your aliquam</h2>
+
+        </div>
+        </div>
+</section>
+
+<section id="section-7">
+    <div class="container">
+
+        <div id="counter">
+
+            <div class="col-sm-2 col-sm-offset-2 text-center counterr">
+            <div class="counter-value" data-count="365"></div>
+                <p class="in-counter ">Loren ipsum</p>
+            </div>
+            <div class="col-sm-2 text-center counterr">
+                <div class="counter-value" data-count="98"></div>
+                <p class="in-counter ">Loren ipsum</p>
+            </div>
+            <div class="col-sm-2 text-center counterr">
+                <div class="counter-value" data-count="69"></div>
+                <p class="in-counter ">Loren ipsum</p>
+            </div>
+            <div class="col-sm-2 text-center counterr">
+                <div class="counter-value" data-count="1642"></div>
+                <p class="in-counter ">Loren ipsum</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner " >
+
+                        <div class="item active">
+                            <div class="container">
+                                <div class="col-sm-6 col-sm-offset-5">
+                                  <div class="sircle-in-secon-carusel"></div>
+
+                                </div>
+                                <div class="col-sm-6 col-sm-offset-4">
+                                    <p class="text-center text-in-carusel-2">
+                                        "Furse dapibus,tellus ac cursus commodo , totor mauris
+                                        condementun . Duis mollis , est non commodo luctus , nisi erat"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="col-sm-6 col-sm-offset-5">
+                                    <div class="sircle-in-secon-carusel"></div>
+
+                                </div>
+                                <div class="col-sm-6 col-sm-offset-4">
+                                    <p class="text-center text-in-carusel-2">
+                                        "Furse dapibus,tellus ac cursus commodo , totor mauris
+                                        condementun . Duis mollis , est non commodo luctus , nisi erat"
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="col-sm-6 col-sm-offset-5">
+                                    <div class="sircle-in-secon-carusel"></div>
+
+                                </div>
+                                <div class="col-sm-6 col-sm-offset-4">
+                                    <p class="text-center text-in-carusel-2">
+                                        "Furse dapibus,tellus ac cursus commodo , totor mauris
+                                        condementun . Duis mollis , est non commodo luctus , nisi erat"
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+</section>
+
+<section id="section-8" class="container" >
+    <div class="container">
+        <div class="header-in-section-5">
+            <h2 class=" col-md-4 col-md-offset-5 col-xs-offset-4">
+                <img src="imeges/header_couter/left.png" class="left-border">
+                Our <span class="span-in-header">portfolio</span>
+                <img src="imeges/header_couter/raigth.png" class="raigth-border"></h2>
+        </div>
+    </div>
+    <div class="container">
+            <ul class="pager">
+
+
+                <button ng-click="orderByMe('all')" class="btn-default ">all</button>
+                <button ng-click="orderByMe('web')" class="btn-default">web</button>
+                <button ng-click="orderByMe('apps')" class="btn-default">apps</button>
+                <button ng-click="orderByMe('icons')" class="btn-default    ">icons</button>
+            </ul>
+        </div>
+    <div class="container" >
+
+        <div ng-repeat="x in persons | filter:myOrderBy " >
+            <div class="col-sm-4 ">
+                <figure class="hoverme">
+                    <img src={{x.url}} alt="" class="scale-with-grid ">
+                    <figcaption><span>+</span></figcaption>
+                </figure>
+                <p style="color: #0f0f0f; font-size: 15px">{{x.propertis}}</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-md-offset-5 col-lg-offset-5  col-xs-1 col-xs-offset-4 ">
+            <button class="button-on-section-2" ></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header-in-section-5">
+            <h2 class=" col-md-4 col-md-offset-5 col-xs-offset-4">
+                <img src="imeges/header_couter/left.png" class="left-border">
+                Get <span class="span-in-header">in touch</span>
+                <img src="imeges/header_couter/raigth.png" class="raigth-border"></h2>
+        </div>
+    </div>
+
+    <form role="form" name="form" id="contact-form" ng-submit="submitForm()" novalidate>
+        <div class="form-group">
+            <label for="FirstName">First name</label>
+            <input type="text" class="form-control" name="FirstName" id="FirstName" placeholder="enter first name" ng-model="firstName" required>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="EmailAddress">Email address</label>
+            <input type="email" class="form-control" id="EmailAddress" name="EmailAddress" placeholder="enter email" ng-model="emailAddress" ng-model-options="{ updateOn: 'blur' }" required>
+            <div ng-show="form.EmailAddress.$dirty && form.EmailAddress.$invalid" class="bg-danger">Invalid:
+                <span ng-show="form.EmailAddress.$error.required">Tell us your email.</span>
+                <span ng-show="form.EmailAddress.$error.email">This is not a valid email.</span>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <label for="LastName">Last Name</label>
+            <input type="text" class="form-control" name="LastName" id="LastName" placeholder="enter last name" ng-model="lastName" required>
+        </div>
+
+        <button type="submit" class="btn btn-default" ng-disabled="form.$invalid" ng-model="submitButton">Submit</button>
+
+    </form>
+</section>
+
+
+
+
+
+
 
 <script>
     window.onload = function() {
@@ -104,6 +535,10 @@
 <script src="js/root.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/carusel-first.js"></script>
+<script src="js/progress_bar.js"></script>
+<script src="js/counter.js"></script>
+
 </body>
 
 </html>

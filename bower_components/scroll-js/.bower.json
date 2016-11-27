@@ -1,0 +1,44 @@
+{
+  "name": "scroll-js",
+  "version": "1.4.1",
+  "homepage": "https://github.com/mkay581/scroll-js",
+  "authors": [
+    "Mark Kennedy <mkay581@gmail.com>"
+  ],
+  "description": "Light Scroller class that uses native javascript only",
+  "main": "src/scroll.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "scroller",
+    "scroll",
+    "scroll class",
+    "scrolljs",
+    "scroll js",
+    "scrollTo",
+    "scroll events"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "promise": "then/promise#^7.1.1"
+  },
+  "_release": "1.4.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.4.1",
+    "commit": "0a1cbf2557d82334d371034a2d97e4d324fc5d92"
+  },
+  "_source": "https://github.com/mkay581/scroll-js.git",
+  "_target": "^1.4.1",
+  "_originalSource": "scroll"
+}
