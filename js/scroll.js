@@ -12,7 +12,7 @@ angular.module('app', ['duScroll'])
             if($scope.form.$valid){
                 console.log("Form Submitted!");
             }
-        }
+        } 
         $scope.orderByMe = function(x) {
             if(x=='all'){
                 $scope.myOrderBy=undefined;
@@ -23,22 +23,28 @@ angular.module('app', ['duScroll'])
         $scope.persons = [
             {
                 url:'imeges/photo/1.png',
-                propertis:'web'
+                propertis:'web',
+                name:'Picasso'
             },{
                 url:'imeges/photo/1.png',
-                propertis:'web'
+                propertis:'web',
+                name:'Picasso'
             },{
                 url:'imeges/photo/1.png',
-                propertis:'apps'
+                propertis:'apps',
+                name:'Picasso'
             },{
                 url:'imeges/photo/1.png',
-                propertis:'apps'
+                propertis:'apps',
+                name:'Picasso'
             },{
                 url:'imeges/photo/1.png',
-                propertis:'icons'
+                propertis:'icons',
+                name:'Picasso'
             },{
                 url:'imeges/photo/1.png',
-                propertis:'icons'
+                propertis:'icons',
+                name:'Picasso'
             },
 
         ];
@@ -64,3 +70,5 @@ angular.module('app', ['duScroll'])
             });
         }
     ).value('duScrollOffset', 30);
+
+

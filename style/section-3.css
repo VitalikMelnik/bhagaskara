@@ -1,16 +1,18 @@
 #section-3{
 
     width: 100%;
-    min-height: 624px;
+    min-height: 625px;
     left: 0;
     top: 40px;
     background: #eeeeee url(../imeges/photo/fon.png) no-repeat center center;
-    background-size: cover;
+    background-size:cover;
 }
 .in-sec-3{
-    margin-top: 30%;
+    margin-top: 150px;
 }
 .header-in-section-3{
+    margin-top: 135px;
+    font-family: "Lato Hairline";
     font-size: 30px;
     color: #ffffff;
 }
@@ -20,10 +22,12 @@
 
 }
 .header-in-section-4{
+    font-family: "Lato Hairline";
     font-size: 30px;
     color: #000000;
     margin-left: -30px;
-    margin-top: 30px;
+    margin-top: 150px;
+    margin-bottom: 130px;
 }
 .header-in-section-4{
     -webkit-transition: all 0.7s ease;
@@ -34,13 +38,17 @@
     transform:scale(1.2);
 }
 .header-in-section-5{
+    font-family: "Lato Hairline";
     font-size: 30px;
     color: #000000;
     margin-left: -30px;
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin-top: 120px;
+    margin-bottom: 200px;
 }
 .header-in-section-5{
+    margin-bottom: 50px;
+    margin-top: 100px;
+    height: 120px;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 }
@@ -55,10 +63,25 @@
     background-size: cover;
 }
 #section-8{
-    margin-top: -200px;
+    margin-top: -50px;
     width: 80%;
     background-color: #ffffff;
     height: 900px;
+}
+.text-in-button{
+    text-transform: uppercase;
+    font-family: "Lato Hairline";
+}
+.text-imege-2{
+    text-transform: lowercase;
+    color: #777777;
+    font-size: 10px;
+    font-family: "Lato Hairline";
+}
+.text-imege{
+    color: #222222;
+    font-size: 15px;
+    font-family: "Lato Hairline";
 }
 
 

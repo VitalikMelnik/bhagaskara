@@ -4,6 +4,7 @@
 }
 
 #section-5{
+
     margin:140px auto;
     height: auto;
 }
@@ -17,3 +18,9 @@
     transition: width 1.5s ease-in-out;
 }
 
+.text-in-progres{
+    font-weight: bolder;
+    color: #222222;
+    font-family: "Lato Hairline";
+    text-transform: uppercase;
+}

@@ -6,17 +6,18 @@
 
 }
 .counter-value{
-
+    font-family: "Lato Hairline";
     font-size: 50px;
     color: #0f0f0f;
 }
 .in-counter{
-
+    font-family: "Lato Hairline";
     color: #0f0f0f;
     font-size: 15px;
 }
 .counterr{
-    margin-top: 100px;
+    margin-top: 160px;
+    margin-bottom: 140px;
 }
 
 
@@ -24,6 +25,7 @@
 
 .main-text
 {
+
     position: absolute;
     top: 50px;
     width: 96.66666666666666%;
@@ -58,7 +60,7 @@
     font-size:20px; color:#fff;
     line-height:100px;
     text-align:center;
-    background:grey;
+    background:#aaaaaa;
     margin-left: 5px;
 
 }
@@ -72,8 +74,19 @@
 .text-in-carusel-2{
     margin-top: 150px;
     width: 300px;
-    color: #0f0f0f;
+    color: #4b4b4b;
     font-size: 15px;
+    font-family: "Lato Hairline";
+}
+.text-in-carusel-3{
+    margin-top: 45px;
+    margin-top: 150px;
+    width: 300px;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Lato Hairline";
 }
 
 /* -- Some Mixins --*/
@@ -105,12 +118,10 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.8);
     display: block;
-    font-size: 20px;
+    font-size: 200px;
     color: #fff;
     text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1;
+       line-height: 1;
     -webkit-transition: 0.6s cubic-bezier(0.665, 0, 0.43, 1) all;
     -moz-transition: 0.6s cubic-bezier(0.665, 0, 0.43, 1) all;
     -o-transition: 0.6s cubic-bezier(0.665, 0, 0.43, 1) all;
@@ -176,5 +187,12 @@ h1 span img {
 }
 
 
-
+.text-in-section-end{
+    font-family: "Lato Hairline";
+    font-size: 20px;
+}
+.strong-text{
+    font-size: 20px;
+    font-weight: bold;
+}
 

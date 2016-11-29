@@ -1,7 +1,7 @@
 
 
 .hexe-in-first-div-content-1{
-
+    margin-top: 165px;
     content: url("../imeges/first_content/hex.png");
     background: url("../imeges/first_content/heart.png") center no-repeat;
     transition: all 0.3s ease;
@@ -15,7 +15,7 @@
 
 }
 .hexe-in-first-div-content-2{
-
+    margin-top: 165px;
     content: url("../imeges/first_content/hex.png");
     background: url("../imeges/first_content/2.png") center no-repeat;
     transition: all 0.3s ease;
@@ -30,7 +30,7 @@
 }
 
 .hexe-in-first-div-content-3{
-
+    margin-top: 165px;
     content: url("../imeges/first_content/hex.png");
     background: url("../imeges/first_content/3.png") center no-repeat;
     transition: all 0.3s ease;
@@ -45,7 +45,7 @@
 }
 
 .hexe-in-first-div-content-4{
-
+    margin-top: 165px;
     content: url("../imeges/first_content/hex.png");
     background: url("../imeges/first_content/4.png") center no-repeat;
     transition: all 0.3s ease;
@@ -143,6 +143,43 @@
         transform: translateX(0);
     }
 }
+.hex-bag-first222{
+    margin-right: 15px;
+    margin-top: 110px;
+    width: 167px;
+    height: 181px;
+    background: url("../imeges/chaing_baground/hex_white.png") no-repeat;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    transition: all 0.3s ease;
+}
+.hex-bag-first222:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background: url("../imeges/chaing_baground/hex_purple.png") no-repeat;
+}
+.hex-bag-first22:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background: url("../imeges/chaing_baground/hex_purple.png") no-repeat;
+}
+.hex-bag-first22{
+
+    margin-left: 15px;
+    margin-top: 110px;
+    width: 167px;
+    height: 181px;
+    background: url("../imeges/chaing_baground/hex_white.png") no-repeat;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    transition: all 0.3s ease;
+}
 
 .hex-bag:hover{
     -webkit-transform: scale(1.1);
@@ -151,9 +188,7 @@
     background: url("../imeges/chaing_baground/hex_purple.png") no-repeat;
 }
 .hex-bag{
-
-    margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 167px;
     height: 181px;
     background: url("../imeges/chaing_baground/hex_white.png") no-repeat;

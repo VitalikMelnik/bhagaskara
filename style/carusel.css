@@ -71,10 +71,23 @@
     margin-right: 10px;
 
 }
-.information-center{
-   margin-left: 60px;
+.information-center h3{
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: "Lato Hairline";
 }
-
+.information-center h4{
+    text-transform: none;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Lato Hairline";
+}
+.social-carusel{
+    margin-left: 70px;
+}
 
 
 
